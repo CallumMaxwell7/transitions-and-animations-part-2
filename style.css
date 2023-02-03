@@ -1,0 +1,84 @@
+.centreLogo{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    transition: transform 5s ease-in-out;
+}
+.centreLogo:hover{
+    width: 200px;
+    height: 200px;
+    transform:rotate(360deg)
+}
+.button1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: border-radius 5s;
+    box-shadow: 7px 7px black;
+}
+a:link , a:visited{
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button1:hover{
+    border-radius: 50%;
+    background-color: navy;
+    transition-timing-function: ease;
+    box-shadow: 7px 7px black;
+}
+.button2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: border-radius 5s;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px red;
+    
+   
+}
+.button2:hover{
+    border-radius: 25%;
+    background-color: green;
+    transition-timing-function: ease;
+    box-shadow: 7px 7px red;
+}
+.button3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: border-radius 5s;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px blueviolet;
+}
+.button3:hover{
+    border-radius: 40%;
+    background-color: grey;
+    transition-timing-function: ease;
+    box-shadow: 7px 7px blueviolet;
+}
+.button4{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: border-radius 5s;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px green
+}
+.button4:hover{
+    border-radius: 30%;
+    background-color: red;
+    transition-timing-function: ease;
+    box-shadow: 7px 7px green;
+}
